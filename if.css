@@ -1,0 +1,256 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+@import url(http://fonts.googleapis.com/css?family=Coming+Soon);
+@import url(http://fonts.googleapis.com/css?family=Questrial);
+@import url(http://fonts.googleapis.com/css?family=Shadows+Into+Light);
+@import url(http://fonts.googleapis.com/css?family=Exo:100,200,300,400,500,600,700,100italic,200italic,300italic,400italic,500italic&subset=latin,latin-ext);
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* if stylez */
+
+body {
+	background: #000;
+	color: #fff;
+	-webkit-transition: all 0.2s linear;
+}
+
+* {
+   padding: 0px;
+   margin: 0px;
+}
+
+#container {
+	padding: 25px;
+	width: 500px;
+	margin: auto;
+	margin-top: 30px;
+	border: 1px solid rgba(128,128,128,0.5);
+	font-family: 'Coming Soon';
+	position: relative;
+	z-index: 1;
+	box-shadow: 1px 2px 5px rgba(0,0,0,0.2);
+}
+
+#board {
+	padding-top: 60px;
+	padding-bottom: 25px;
+	width: 500px;
+	line-height: 26px;
+	font-size: 15px;
+	text-shadow: 0 0 2px #EFEFEF;
+}
+/*
+#board:first-letter {
+	font-size: 22px;
+	float: left;
+}*/
+
+/*
+#options {
+	text-align: center;
+	width: 100%;
+	padding-top: 25px;
+	padding-bottom: 0;
+}
+
+#options input {
+	margin: 25px;
+	font-size: 18px;
+	border: 1px solid #aaa;
+	
+	padding: 4px 12px ;
+	color: #666;
+	border-radius: 3px 3px 6px 3px;
+	font-family: 'Exo', sans-serif;
+	font-weight: 200;
+	font-size: 14px;
+	cursor: pointer;
+	-webkit-transition: all 0.2s linear;
+	background: rgb(255,255,255);
+	background: -moz-linear-gradient(top,  rgba(255,255,255,1) 20%, rgba(150,213,255,1) 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(20%,rgba(255,255,255,1)), color-stop(100%,rgba(150,213,255,1)));
+	background: -webkit-linear-gradient(top,  rgba(255,255,255,1) 20%,rgba(150,213,255,1) 100%);
+	background: -o-linear-gradient(top,  rgba(255,255,255,1) 20%,rgba(150,213,255,1) 100%);
+	background: -ms-linear-gradient(top,  rgba(255,255,255,1) 20%,rgba(150,213,255,1) 100%);
+	background: linear-gradient(top,  rgba(255,255,255,1) 20%,rgba(150,213,255,1) 100%);
+	
+	text-shadow: 0 0 1px #aaa;
+}
+
+#options input:hover {
+	
+	color: #000;
+	text-shadow: 0 0 1px #fff;
+	border-color: black;
+	
+}
+*/
+
+
+
+#options {
+	text-align: center;
+	width: 100%;
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+
+#options input {
+	margin: 25px;
+	font-size: 18px;
+	font-weight: bold;
+	border: 1px solid;
+	padding: 4px 12px;
+	background: #ddd;
+	border-radius: 3px;
+	font-family: "Questrial";
+	cursor: pointer;
+	-webkit-transition: all 0.333s ease-in-out;
+}
+
+#options input:hover {
+	background: #333;
+	color: #efefef;
+}
+
+#top {
+	background: #fff;
+}
+
+.shade {
+	background: url(images/shade.png) center center no-repeat;
+	background-size: contain;
+	width: 520px;
+	height: 120px;
+	position: absolute;
+	top: 170px;
+	left: 18px;
+	z-index: -1;
+}
+
+.hidden {
+	display: none;
+}
+
+#credit {
+	border-radius: 100%;
+	background: rgba(0, 0, 0, 0.1);
+	position: absolute;
+	z-index: 1;
+	top: 5px;
+	right: 5px;
+	padding: 4px 6px 0px;
+	line-height: 16px;
+	font-size: 10px;
+	text-align: center;
+	font-weight: bold;
+	cursor: pointer;
+	-webkit-transition: all 2s ease-in-out;
+}
+
+#credit:hover {
+	-webkit-transform: rotate(720deg);
+}
+
+#credits {
+	font-family: "Exo",sans-serif !important;
+	width: 430px;
+	position: absolute;
+	left: 50%;
+	top: 12px;
+	z-index: 1;
+	background: rgba(255, 255, 255, 0.95);
+	padding: 25px;
+	border: 1px solid #AAA;
+	box-shadow: 0 0 12px #aaa;
+	color: #333;
+	font-family: 'Coming Soon';
+	line-height: 18px;
+	font-size: 12px;
+	margin-left: -240px;
+	font-weight: 200;
+}
+
+#credits a {
+	text-decoration: none;
+	font-weight: 400;
+	color: #6A6A6A;
+	padding-left: 18px;
+	background: url(images/link.gif) 3px 2px no-repeat;
+	-webkit-transition: all 0.2s linear;
+}
+
+#credits a:hover {
+	color: #3355aa;
+}
+
+#cb {
+	cursor: pointer;
+	font-weight: 400;
+}
+
+#cb:hover {
+	color: #000;
+}
+
+#credits h1 {
+	font-size: 22px;
+	font-weight: 500;
+	margin: 0px 0 4px 0;
+	padding: 0 0 12px 0;
+	border-bottom: 1px solid #CCC;
+}
+
+#credits p {
+	margin: 4px 0;
+	padding: 4px 0;
+}
+
+strong {
+	font-weight: bold;
+}

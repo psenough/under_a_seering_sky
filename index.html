@@ -1,0 +1,121 @@
+<html>
+ <head>
+	<title>Under a Seering Sky</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" >
+	<meta name="keywords" content="enough records, enoughrecords, netlabel, netaudio, sci-fi, cyberpunk, interactive fiction, gamebook, soundtrack, game">
+
+	<link rel="stylesheet" type="text/css" href="if.css">
+
+	<!-- global -->
+	<script language="JavaScript" type="text/javascript" src="submit.js"></script>
+	<script language="JavaScript" type="text/javascript" src="init.js"></script>
+	<script language="JavaScript" type="text/javascript" src="audio.js"></script>
+	
+	<!-- genhaiku -->
+	<script language="JavaScript" type="text/javascript" src="md5.js"></script>
+	<script language="JavaScript" type="text/javascript" src="haiku.js"></script>
+	
+	<!-- canvas-fx -->
+	<script language="JavaScript" type="text/javascript" src="colorwheel.js"></script>
+	<script language="JavaScript" type="text/javascript" src="canvas.js"></script>
+	
+	<!-- chapters -->
+	<script language="JavaScript" type="text/javascript" src="chapter1.js"></script>
+	<script language="JavaScript" type="text/javascript" src="chapter2.js"></script>
+	<script language="JavaScript" type="text/javascript" src="chapter3.js"></script>
+	
+	<!-- stripthis -->	
+	<link rel="stylesheet" type="text/css" href="stripthis-0.1/font/stylesheet.css" />
+	<script type="text/javascript" src="stripthis-0.1/libs/comicbrowser.js"></script>
+	<script type="text/javascript" src="stripthis-0.1/libs/comicgenerator.js"></script>
+	<script type="text/javascript" src="stripthis-0.1/libs/stencils.js"></script>
+	<script type="text/javascript" src="stripthis-0.1/libs/stencils-kesiev.js"></script>
+	<script type="text/javascript" src="stripthis-0.1/libs/stencils-sandbox.js"></script>		
+	<script type="text/javascript" src="stripthis-0.1/libs/stencils-cw.js"></script>
+	<script type="text/javascript" src="stripthis-0.1/libs/stencils-lw.js"></script>
+	<script type="text/javascript" src="ping.js"></script>	
+
+ </head>
+ <body onload="init()">
+ 	<div id="container">
+ 		<div id="credit">?</div>
+ 		<div id="top"><img src="images/title_screen.png"></div>
+ 		<div class="shade"></div>
+ 		<div id="board"><div id=\"options\">Loading...</div></div>
+ 		<div id="bottom"></div>
+ 	</div>
+
+ 	<div id="credits" class="hidden">
+ 		<h1>Under a Seering Sky</h1>
+ 		
+ 		<p>A sci-fi interactive fiction / gamebook / web game.<br>
+ 		Commissioned by <a href="http://enoughrecords.scene.org">Enough Records</a>.<br>
+ 		Contains explicit language.</p>
+ 		
+ 		<p><strong>Programming</strong> and <strong>storyline</strong><br/>
+ 		 	<a href="http://tpolm.org/~ps">Filipe 'ps' Cruz</a><br>
+ 		 </p>
+ 		
+ 		<p><strong>Additional programming</strong> and <strong>layout design</strong><br>
+ 			<a href="http://flarework.com">Dan 'dazld' Peddle</a>
+ 		</p>
+
+ 		<p><strong>Graphics</strong><br>
+ 		   <a href="http://tpolm.com/fthr/">Antti 'Fthr' Jadertpolm</a><br>
+ 		   <a href="http://www.omit-art.com/">Timo 'Visualice' Harju</a>
+ 		</p>
+
+ 		<p><strong>Support</strong><br>
+ 		   <a href="http://www.coldcity.com/">Ian 'Fell' Craig</a><br>
+ 		   Peter 'havoc' van Rijn
+ 		</p>
+ 		
+ 		<p><strong>Soundtrack</strong><br>
+ 		   <a href="http://www.aktivehate.com/">Aktivehate</a><br>
+ 		   <a href="http://kreutzfeldt.dustopper.dk/">Danny Kreutzfeldt</a><br>
+ 		   <a href="http://entity.be/duncanavoid/">Duncan Avoid</a><br>
+ 		   <a href="http://www.edgeist.net/">Edgeist</a><br>
+ 		   <a href="http://kosmoplovci.net/music/havoc/index.php">havok</a><br>
+ 		   <a href="http://rngmnn.1mhz.org/">rngmnn</a><br>
+ 		   <a href="http://tpolm.org/~ps/music.php">ps</a><br>
+ 		   <a href="http://www.departure-productions.com/un/">Un</a><br>
+ 		   Courtesy of <a href="http://enoughrecords.scene.org">Enough Records</a>, <a href="http://www.clubotaku.org/mimi/">MiMi Records</a> and <a href="http://kosmoplovci.net/music/index.php">Floating Joint</a>.
+ 		</p>
+ 		
+ 		<p><strong>Libraries</strong><br>
+ 		   <a href="http://www.tpolm.org/~ps/recyclebinladen/metagenhaiku/">MetaGenHaiku</a> by ps<br>
+ 		   <a href="http://www.kesiev.com/stripthis/">StripThis</a> by KesieV
+ 		</p>
+
+ 		<p>Tested under Chrome, Firefox and Safari.<br>
+ 		Should work with Opera. Probably won't with Internet Explorer.</p>
+ 		
+ 		<p>Last update: 19 June 2012</p>
+ 		
+ 		<p id="cb">[ Close ]</p>
+ 	</div>
+ 	<script type="text/javascript">
+ 		
+ 		var credits = {
+ 			visible: false,
+ 			d: function(id){
+ 				return document.getElementById(id);
+ 			},
+
+ 			init: function(){
+ 				this.d('credit').onclick = this.handler;
+ 				this.d('cb').onclick = this.handler;
+ 			},
+ 			handler: function(){
+ 				var self = credits;
+ 				self.visible = (self.visible) ? false : true;
+ 				self.d('credits').className = (self.visible) ? '' : 'hidden';
+ 			}
+ 		}
+
+ 		credits.init(); // I realise this is overkill, but hey,it works :D
+
+ 	</script>
+ </body>
+</html>
