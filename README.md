@@ -5,6 +5,9 @@ Under a Seering Sky
 
 Sci-fi gamebook developed in javascript.
 
+Canvas effects derived from canvas-fx experiments by Dazld and ps.
+https://github.com/dazld/canvas-fx
+
 Included tracks are under creative commons licenses from their respective netlabels.
 http://enoughrecords.scene.org
 http://clubotaku.org/mimi/
