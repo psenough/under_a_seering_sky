@@ -371,9 +371,9 @@
 			<textarea class="comicbrowser-render">\n \
 			" "\n \
 			new with image aligned top single images/stripthis_backgrounds/fthr_everse_851_180.png panel\n \
-			somebody says whispering "i have 5k. what can you get me?"\n \
+			somebody says whispering "i have the 5k. what can you get me?"\n \
 			new dark corridor panel\n \
-			carl using phone sunglasses cigarette replies whispering "big brother bypass, all cams + the facial recognition service logs."\n \
+			carl using phone sunglasses cigarette replies whispering "big brother bypass, all cams plus the facial recognition service logs."\n \
 			</textarea>';
 			comicbrowser._onload();
 		}
@@ -385,7 +385,7 @@
 			new with image aligned top single images/stripthis_backgrounds/fthr_everse_851_180.png panel\n \
 			somebody says whispering "that will do. how do we sync?"\n \
 			new dark corridor panel\n \
-			carl using phone sunglasses cigarette replies whispering "what sync? you tell me hour, we post on private board."\n \
+			carl using phone sunglasses cigarette replies whispering "what sync? you tell me which hour, we post logs on private board."\n \
 			</textarea>';
 			comicbrowser._onload();
 		}
@@ -431,9 +431,9 @@
 			<textarea class="comicbrowser-render">\n \
 			" "\n \
 			new with image aligned top single images/stripthis_backgrounds/fthr_everse_851_180.png panel\n \
-			somebody says whispering "are you out of your fucking mind or just fucking with me? i have no time for horseshit!"\n \
+			somebody says whispering "60?!? are you out of your fucking mind? or are you just fucking with me?"\n \
 			new dark corridor panel\n \
-			carl using phone sunglasses cigarette replies whispering "we have vuln 0day, sell good. we sell to you, you sell to others. sell no more, no good. 60k"\n \
+			carl using phone sunglasses cigarette replies whispering "i have 0day vuln, it can sell good. we sell to you, you sell to others. we sell no good anymore. 60k"\n \
 			</textarea>';
 			comicbrowser._onload();
 		}	
@@ -443,7 +443,7 @@
 			<textarea class="comicbrowser-render">\n \
 			" "\n \
 			new with image aligned top single images/stripthis_backgrounds/fthr_everse_851_180.png panel\n \
-			somebody says whispering "i don\'t have that much"\n \
+			somebody says whispering "i don\'t have those kind of credits"\n \
 			new dark corridor panel\n \
 			carl using phone sunglasses cigarette replies whispering "no credits no 0day."\n \
 			</textarea>';
@@ -457,7 +457,7 @@
 			<textarea class="comicbrowser-render">\n \
 			" "\n \
 			new with image aligned top single images/stripthis_backgrounds/fthr_everse_851_180.png panel\n \
-			somebody says whispering "you fuckers having fun? my bitch is dying out there and you fuck heads are just having a laugh?"\n \
+			somebody says whispering "my bitch is dying out there and you fuckheads are just having a laugh?"\n \
 			new dark corridor panel\n \
 			jefferson no eyes using pc replies whispering "what goes around comes around!"\n \
 			</textarea>';

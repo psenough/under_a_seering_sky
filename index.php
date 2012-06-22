@@ -37,6 +37,9 @@
 	<script type="text/javascript" src="ping.js"></script>	
 
  </head>
+<?
+	@include_once( '/home/sceneorg/ps/public_html/enough/slimstat/stats_include.php' );
+?>
  <body onload="init()">
  	<div id="container">
  		<div id="credit">?</div>
@@ -88,10 +91,13 @@
  		   <a href="http://www.kesiev.com/stripthis/">StripThis</a> by KesieV
  		</p>
 
- 		<p>Tested under Chrome, Firefox and Safari.<br>
- 		Should work with Opera. Probably won't with Internet Explorer.</p>
+ 		<p>Tested under Chrome, Firefox, Opera and Safari.<br>
+ 		Probably won't work properly on Internet Explorer.</p>
  		
- 		<p>Last update: 19 June 2012</p>
+ 		<p><a href="http://audienciazero.net/xda/2012/06/20/making-of-under-a-seering-sky/">Making-of article</a><br>
+ 		<a href="https://github.com/psenough/under_a_seering_sky">Sourcecode repository</a></p>
+ 		
+ 		<p>Last update: 22 June 2012</p>
  		
  		<p id="cb">[ Close ]</p>
  	</div>

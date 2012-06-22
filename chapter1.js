@@ -17,7 +17,7 @@ chapters[1] = {
 		}
 	},
 	1: {
-		'info': "You start feeling the space around you. It appears you are sitting on a chair of some sort. You get interrupted by a throbbing pain emanating from your head. It hurts very badly."
+		'info': "You start feeling the space around you. It appears you are sitting in a chair of some sort. You get interrupted by a throbbing pain emanating from your head. It hurts very badly."
 		,'options-text': {
 			0:"Touch head",
 			1:"Wait"
@@ -49,7 +49,7 @@ chapters[1] = {
 		}
 	},
 	4: {
-		'info': "You log out from the virtualization unit binding your head. The pod opens around you. Bright light in the room burns your eyes. You slide down the chair and hit the carpet floor. You ache with pain and seem unable to move."
+		'info': "You log out from the virtualization unit binding your head. The pod opens up around you. The bright light in the room burns your eyes. You slide down from the chair you were sitting on and fall on the carpet floor. You ache with pain and seem quite unable to move at this point."
 		,'options-text': {
 			0:"Get up"
 		}
@@ -316,12 +316,10 @@ chapters[1] = {
 	28: {
 		'info': "You take another deep breath and start remembering more things. Koreans bad. Need to escape from zot run. Packed collateral. Packed collateral?!? Whatever the fuck that is it sounds good! Packed where? Your pocket?!?"
 		,'options-text': {
-			0:"Check pocket again",
-			1:"Give up"
+			0:"Check pocket"
 		}
 		,'options-redirect': {
-			0:30,
-			1:26
+			0:30
 		}
 	},
 	29: {
@@ -361,10 +359,10 @@ chapters[1] = {
 	32: {
 		'info': "You take a moment to steady yourself and look around. You're in a bedroom of some sort. The Koreans are talking in the kitchen in front of you, there is a bathroom on your left, a window right next to the bed and the hallway to the entrance door on your right."
 		,'options-text': {
-			0:"Look around for anything useful",
+			0:"Look around",
 			1:"Run for the entrance door",
 			2:"Storm the kitchen",
-			3:"Quietly check the bathroom for aspirin",
+			3:"Check the bathroom for aspirin",
 			4:"Jump out the window"
 		}
 		,'options-redirect': {
@@ -398,7 +396,7 @@ chapters[1] = {
 		,'options-text': {
 			0:"Run for the entrance door",
 			1:"Storm the kitchen",
-			2:"Quietly check the bathroom for aspirin",
+			2:"Check the bathroom for aspirin",
 			3:"Jump out the window"
 		}
 		,'options-redirect': {

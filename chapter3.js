@@ -541,7 +541,7 @@ chapters[3] = {
 	45: {
 		'info': "<div id=\"comic\"></div>"
 		,'options-text': {
-			0:"Reply"
+			0:"Quit Session"
 		}
 		,'options-redirect': {
 			0:46
@@ -641,7 +641,7 @@ chapters[3] = {
 			1:25
 		}
 		,'update': function(){
-			decode_message("Jakim tells me you need some assistance. Ain't that a bummer?! Remember mexico? I do! -- kooi // krommers");
+			decode_message("Jakim tells me you need some assistance. Ain't that a bummer?! Remember mexico? I do! -- kooi / krommers");
 		}
 	},
 	54: {
@@ -898,7 +898,7 @@ chapters[3] = {
 		}
 	},
 	77: {
-		'info': "You log out and crawl into the fetal position, hoping that whatever this is will pass anytime soon. You had never heard of adverse effects to Oxypadronamedival. You had never heard of Oxypadronamedival at all until earlier today. Apparently it messes with your synapses, highly unrecommended for network runners... You are in no condition to help your bitch1."
+		'info': "You log out and crawl into the fetal position, hoping that whatever this is might pass soon. You had never heard of adverse effects of Oxypadronamedival before. You had never heard of Oxypadronamedival at all until earlier today. Apparently it messes with your synapses, highly unrecommended for network runners such as yourself... You are in no condition to try to help your bitch anymore. Ain't that a bummer?"
 		,'update': function() {
 			document.body.style.backgroundColor = "#FFF";
 			document.body.style.color = "#000";

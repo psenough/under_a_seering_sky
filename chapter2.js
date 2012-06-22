@@ -67,7 +67,7 @@ chapters[2] = {
 		}
 	},
 	5: {
-		'info': "Easy to spoof your mac address when you have the right tools for the job. Shall we get it on?"
+		'info': "Much easier to spoof your MAC address when you have the right tools for the job at your VPN. Shall we proceed directly towards proxy chain activation?"
 		,'options-text': {
 			0:"Activate Proxy Chains",
 		}
@@ -115,7 +115,7 @@ chapters[2] = {
 		}
 	},
 	9: { 
-		'info': "You check your encodes for messages. You have one new message! Just need to decode it. What was the damn password code?!?<br><br><input name=\"pwd\" id=\"pwd\" type=\"password\" onkeydown=\"if (event.keyCode == 13) submit(9)\">"
+		'info': "You check your encodes for messages. You have one new message! Just need to decode it. What was that damn password code?!?<br><br><input name=\"pwd\" id=\"pwd\" type=\"password\" onkeydown=\"if (event.keyCode == 13) submit(9)\">"
 		,'options-text': {
 			0:"Submit",
 			1:"Check Y€ boards",
@@ -125,8 +125,8 @@ chapters[2] = {
 		,'options-redirect': {
 			0:9,
 			1:10,
-			2:11,
-			3:12
+			2:function(){ return (pingbitch1?21:11) },
+			3:function(){ return (pingbitch2?22:12) }
 		}
 		,'pre': function(){
 			var pwd = document.getElementById('pwd');
@@ -210,7 +210,7 @@ chapters[2] = {
 		}
 	},
 	14: {
-		'info': "The internet is for porn! But there are a couple of more important things to take care of right now. Plus, you're in a fucking podcab!"
+		'info': "The internet is for porn! But there are a couple of more important things for you to take care of right now. Plus, you're in a podcab for fucks sake!"
 		,'options-text': {
 			0:"Check Y€ boards",
 			1:"Check encoded email",
@@ -225,15 +225,12 @@ chapters[2] = {
 		}
 	},
 	15: {
-		'info': "You managed to figure out the password! You can now decode and read the email. It's from T501, one of your dupe accounts! Why were you mailing yourself? You probably knew you were gonna have to ghost nuke your way out of that run."
+		'info': "You manage to figure out the password! Now you can decode and read the email! Seems that it's from T501, one of your dupe accounts! Why are you mailing yourself? Maybe you knew you were gonna have to ghost nuke your way out of that zot run."
 		,'options-text': {
 			0:"Read email"
 		}
 		,'options-redirect': {
 			0:31
-		},
-		'update': function(){
-			//todo: change graphics and music
 		}
 	},
 	16: {
@@ -272,8 +269,7 @@ chapters[2] = {
 			1:19
 		},
 		'update': function(){
-			pingbitch2_2(document.getElementById('comic'));
-			pingbitch2 = true; 
+			pingbitch2_2(document.getElementById('comic')); 
 		}
 	},
 	19: {
@@ -281,14 +277,12 @@ chapters[2] = {
 		,'options-text': {
 			0:"Check Y€ boards",
 			1:"Check encoded email",
-			2:"Ping bitch1",
-			3:"ping bitch2"
+			2:"Ping bitch1"
 		}
 		,'options-redirect': {
 			0:10,
 			1:9,
-			2:function(){ return (pingbitch1?21:11) },
-			3:function(){ return (pingbitch2?22:12) }
+			2:function(){ return (pingbitch1?21:11) }
 		}
 	},
 	20: {
@@ -304,11 +298,11 @@ chapters[2] = {
 		}
 	},
 	21: {
-		'info': "Why would you want to ping him again? You need to figure out what to do!"
+		'info': "Why would you want to ping bitch1 again? You need to figure out what to do next!"
 		,'options-text': {
 			0:"Check Y€ boards",
 			1:"Check encoded email",
-			2:"ping bitch2"
+			2:"Ping bitch2"
 		}
 		,'options-redirect': {
 			0:10,
@@ -428,7 +422,7 @@ chapters[2] = {
 		
 	},
 	31: {
-		'info': function(){ return "<span id=\"decoded_message\"></span><br><br>You have no recollection of deploying the trojan but you should probably head to the safehouse anyways. Except you don't know where it is. So now what?"+(aspirin?"":" Your head is still throbbing with pain, you should probably get some aspirin ASAP.") }
+		'info': function(){ return "<span id=\"decoded_message\"></span><br><br>You have no recollection of writing this or deploying that trojan to warn bitch2 but you should probably head out to the safehouse to check if he made it there. Except you don't know where it is. So now what?"+(aspirin?"":" Your head is still throbbing with pain, you should probably get some aspirin ASAP.") }
 		,'options-text': {
 			0:"Check Y€ boards",
 			1:function(){ return (aspirin?"Porn":"Surf for local suppliers") }
@@ -438,11 +432,11 @@ chapters[2] = {
 			1:function(){ return (aspirin?33:34) }
 		}
 		,'update': function(){
-			decode_message("Hello there, you should really stop talking with yourself so often, what would the kids think if they ever heard about this? By the time you read this you'll probably have your brain stem fried for ghost nuking your way out of the korean mess. In case you don't remember whats up this is the gist of it: Koreans got dox on bitch2. To buy some time you agreed to meet them for a zot run on ground zero Japan. The plan, should it have duly persist on execution, is to agree on run, warn the 2nd bitch with a deployed trojan, get a few clays deployed on their zots to get the mission started. We shall hope the koreans soften up watching the zot run get under way and then proceed directly to the aformentioned ghost nukage to get your ass out of ground zero. Packing collateral, i intend on making our shooting range instructor happy, if you're reading this i guess so have you. The rendezvous with bitch2 is at 120613-700 on japan safehouse 3. -- you, yourself and i");
+			decode_message("Hello there, you should really stop talking with yourself so often, what would the kids think if they ever heard of this? By the time you read this you'll probably have your brain stem fried for ghost nuking your way out of this korean mess. In case you don't remember whats up this is the gist of it: Koreans have dox on bitch2. To buy him some time you agreed to meet them for a zot run on zero ground Japan. The plan, should it have duly persisted upon its execution by the time you read this, was to agree with them on doing the run, then warn the 2nd bitch with a deployed trojan, get a few clays deployed on their zots to get the mission started and ghost nuke yourself out of it. We shall hope the koreans had soften up while watching the zot run get underway and proceed directly to get your ass out of ground zero. I'm packing collateral and i fully intend on making our shooting range instructor happy. I guess if you're reading this so did you. In case you won't remember the rendezvous with bitch2 is at 120613-700 on japan safehouse 3. -- you, yourself and i");
 		}
 	},
 	32: {
-		'info': "You check the boards again looking for references to safehouses in Japan. You manage to find the address you were looking for!"
+		'info': "You check the boards again looking for references to safehouses in Japan. You manage to find the address you were looking for! Awesomeness!"
 		,'options-text': {
 			0:function(){ return (aspirin?"Log out":"Surf for local suppliers") }
 		}
@@ -494,7 +488,7 @@ chapters[2] = {
 		}
 	},
 	36: {
-		'info': "You instruct the podcab to drive to the safehouse3. It's actually a zot bar called The Orange County. You never been there yourself but your zots use it to trade intel quite often. Offline communications are always safer. How do you want to enter?"
+		'info': "You instruct the podcab driver to take you to safehouse3. It's actually a zot bar called The Orange County. You never been there on zero ground, only when running some of your zots, you use it to do some maintenance and trade intel with other runners. Offline communication is always safer. How will enter The Orange County?"
 		,'options-text': {
 			0:"Through the main door",
 			1:"Through the back alley"
@@ -1191,6 +1185,8 @@ chapters[2] = {
 		}
 		,'update': function() {
 			chapter = 3;
+			document.body.style.backgroundColor = "#000";
+			document.body.style.color = "#fff";
 		}
 	},
 	102: {
