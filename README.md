@@ -2,6 +2,7 @@ under_a_seering_sky
 ===================
 
 Under a Seering Sky
+https://psenough.github.io/under_a_seering_sky/
 
 Sci-fi gamebook developed in javascript.
 
